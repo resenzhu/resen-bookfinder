@@ -1,0 +1,40 @@
+{
+  "name": "resen-bookfinder",
+  "version": "1.0.0",
+  "homepage": "https://resen-bookfinder.vercel.app",
+  "private": true,
+  "scripts": {
+    "eslint": "eslint src --ignore-pattern **/*.js",
+    "prettier": "prettier --write src --list-different",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.2.10",
+    "@heroicons/react": "^2.2.0",
+    "@supabase/supabase-js": "^2.118.0",
+    "axios": "^1.20.0",
+    "rater-js": "^2.0.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "autoprefixer": "^10.6.1",
+    "eslint": "^10.13.0",
+    "postcss": "^8.5.31",
+    "prettier": "^3.9.10",
+    "prettier-plugin-tailwindcss": "^0.8.1",
+    "tailwindcss": "^3.4.19",
+    "tailwindcss-animated": "^2.1.0",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.71.2",
+    "vite": "^8.3.4"
+  }
+}
